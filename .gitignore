@@ -1,0 +1,94 @@
+# Cadence Virtuoso and Spectre temporary and output files
+*.log
+*.trn
+*.trs
+*.err
+*.out
+*.psf
+*.raw
+*.ahdlSimDB
+*.result
+*.sdf
+*.ic
+*.ac
+*.vc
+*.stb
+*.svdb
+*.spectre*
+
+# Cadence state and autosave files
+*.log*
+*.history
+*.lock
+*.swp
+*.tmp
+*.bak
+*.oa
+*.oa.*
+*~*
+*.sdb
+
+# Cellview autosaves
+*.asav
+*.asv
+
+# ADE simulation run data
+**/waves/*
+**/psf/*
+**/psfbin/*
+**/results/*
+**/runDir*
+**/TestResults*
+**/simvision*
+**/hsim_workdir*
+**/snapshots*
+**/projectdata*
+
+# Virtuoso local config and lock files
+virtuoso.log
+*.log
+*.diag
+*.diaglog
+*.history
+*.cdsenv.backup
+*.cdsinit.lock
+*.cdsenv.lock
+*.simvision.lock
+
+# OA database junk
+*.oaDb*
+*.oaLock
+
+# Generated waveform and temp data
+*.trn
+*.trn.*
+*.wave*
+*.wcfg
+*.shm
+*.fsdb
+
+# Spectre check point and netlist cache
+*.ckpt
+*.netlist
+*.runLog
+*.tran.tran*
+
+# Ignore user-specific files
+*.cdsinit
+*.cdsenv
+*.cds.lib
+*.icconfig
+*.simrc
+*.workspace
+*.oaConfig
+*.oaDesignDb*
+
+# Ignore layout extracted views and intermediate data
+*.ext
+*.calibre
+*.xcelium*
+*.ncsim*
+
+# Optional: ignore all hidden files/folders
+.*
+!/.gitignore
