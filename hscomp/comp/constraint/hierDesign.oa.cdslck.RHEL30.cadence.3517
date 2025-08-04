@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Mon Aug  4 19:59:14 2025 IST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/buet/hscomp/comp/schematic/sch.oa.cdslck.dirlck
-TimeEditLocked                 Mon Aug  4 20:00:18 2025 IST
+FilePathUsedToEditLock         /home/buet/hscomp/comp/constraint/hierDesign.oa.cdslck.dirlck
+TimeEditLocked                 Mon Aug  4 20:00:28 2025 IST
