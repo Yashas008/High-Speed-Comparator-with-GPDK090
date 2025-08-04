@@ -1,0 +1,69 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.5 12/12/2012 15:27 (sjfdl071) $
+          : sub-version  IC6.1.5.500.15 
+Started at: 04-Aug-2025  20:26:09
+User Name : buet
+Host Name : cadence
+Directory : /home/buet
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file './comp.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/buet/cadence/gpdk090_v4.6/libs.oa22/gpdk090/gpdk090.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 hscomp
+strmFile                                comp.gds
+topCell                                 comp
+view                                    layout
+logFile                                 strmOut.log
+techLib                                 gpdk090
+layerMap                                /home/buet/cadence/gpdk090_v4.6/libs.oa22/gpdk090/gpdk090.layermap
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView gpdk090/M1_POv/layout as STRUCTURE M1_POv_0
+INFO (XSTRM-223): 2. Translating cellView gpdk090/M1_POv/layout as STRUCTURE M1_POv_1
+INFO (XSTRM-223): 3. Translating cellView gpdk090/M1_POv/layout as STRUCTURE M1_POv_2
+INFO (XSTRM-223): 4. Translating cellView gpdk090/M2_M1v/layout as STRUCTURE M2_M1v_3
+INFO (XSTRM-223): 5. Translating cellView gpdk090/M2_M1v/layout as STRUCTURE M2_M1v_4
+INFO (XSTRM-223): 6. Translating cellView gpdk090/M2_M1v/layout as STRUCTURE M2_M1v_5
+INFO (XSTRM-223): 7. Translating cellView gpdk090/M2_M1v/layout as STRUCTURE M2_M1v_6
+INFO (XSTRM-223): 8. Translating cellView gpdk090/M1_POv/layout as STRUCTURE M1_POv_7
+INFO (XSTRM-223): 9. Translating cellView gpdk090/M3_M2v/layout as STRUCTURE M3_M2v_8
+INFO (XSTRM-223): 10. Translating cellView gpdk090/M3_M2v/layout as STRUCTURE M3_M2v_9
+INFO (XSTRM-223): 11. Translating cellView gpdk090/M2_M1v/layout as STRUCTURE M2_M1v_10
+INFO (XSTRM-223): 12. Translating cellView gpdk090/M1_POv/layout as STRUCTURE M1_POv_11
+INFO (XSTRM-223): 13. Translating cellView hscomp/comp/layout as STRUCTURE comp
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+INFO (XSTRM-223): 14. Translating cellView gpdk090/pmos1v/layout as STRUCTURE pmos1v_0
+INFO (XSTRM-223): 15. Translating cellView gpdk090/nmos1v/layout as STRUCTURE nmos1v_1
+
+Summary of Objects Translated:
+	Scalar Instances:                       15
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             87
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           17
+	Custom Vias:                            0
+	Pathsegs:                               117
+	Text:                                   0
+	Cells:                                  15
+
+Elapsed Time: 0.3s   User Time: 0.4s   CPU Time: 0.0s   Peak VM: 699KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
