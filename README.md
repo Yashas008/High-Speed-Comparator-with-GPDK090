@@ -22,6 +22,8 @@ Latching Time: Approximately 300 ps
 Correct Output Polarity: Verified  
 Regeneration Behavior: Confirmed  
 Transient Simulation: Shows valid digital-level outputs switching in response to differential input and clock edges
+Layout has been generated and vlaidated with DRC and LVS and parasitics have been extracted for said device.
+
 
 ### Output Snapshot
 
